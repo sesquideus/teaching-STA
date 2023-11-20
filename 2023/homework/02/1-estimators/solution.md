@@ -24,6 +24,7 @@ a.  We know that
     $$
         \Expected{s^2} - \sigma^2 = \sigma^2 - \sigma^2 = 0.
     $$
+
 a.  We see that
     $$
         S^2 = \frac{n}{n - 1} \hat{\sigma}_{\mathrm{MLE}}^2,
@@ -57,6 +58,14 @@ a.  We express
 a.  We find which estimator has a larger error from [@eq:staw021:ratio],
     $$
         \frac{2 n^2}{\left(2n - 1\right)\left(n - 1\right)} =
-        \frac{2 n^2}{2 n^2 - 3 n + 1} > 1,
+        \frac{2 n^2}{2 n^2 - 3 n + 1} > 1.
     $$
-    so if we want a smaller mean square error, $\hat{\sigma}_{\mathrm{MLE}}^2$ is the preferred estimator.
+
+    The important thing that the problem wants us to note is that sometimes there might be a tradeof
+    between estimator MSE and bias. If we want a smaller mean square error,
+    $\hat{\sigma}_{\mathrm{MLE}}^2$ is the preferred estimator, but if for any reason we want to
+    avoid bias, then $S^2$ is a better choice.
+    The use of $n - 1$ in the formula is called _Bessel's correction_.
+
+    Also remember the Cramér--Rao inequality: it provides a lower bound on the MSE of an _unbiased_ estimator,
+    however there might exist _biased_ estimators with lower MSE.
