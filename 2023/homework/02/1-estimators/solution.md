@@ -31,7 +31,7 @@ a.  We see that
     $$
     so we just express directly
     $$
-        \frac{\Var{\hat{\sigma}_{\mathrm{MLE}}^2}}{\Var{s^2}} =
+        \frac{\Var{\hat{\sigma}_{\mathrm{MLE}}^2}}{\Var{S^2}} =
         \frac{\Var{\hat{\sigma}_{\mathrm{MLE}}^2}}{\left(\frac{n}{n - 1}\right)^2\Var{\hat{\sigma}_{\mathrm{MLE}}^2}} =
         \left(\frac{n - 1}{n}\right)^2.
     $$
@@ -67,5 +67,5 @@ a.  We find which estimator has a larger error from [@eq:staw021:ratio],
     avoid bias, then $S^2$ is a better choice.
     The use of $n - 1$ in the formula is called _Bessel's correction_.
 
-    Also remember the Cramér--Rao inequality: it provides a lower bound on the MSE of an _unbiased_ estimator,
-    however there might exist _biased_ estimators with lower MSE.
+    Also remember the Cramér--Rao inequality: it provides a lower bound on the MSE of an _unbiased_ estimator.
+    Still, _biased_ estimators with lower MSE might exist.

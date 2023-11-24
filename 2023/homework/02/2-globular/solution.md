@@ -6,7 +6,7 @@ a.  Sum of independent and identically normally distributed random variables is 
     }$$
     and thus
     $$
-        \Mean{x} \sim \mathcal{N}(\mu, \frac{\sigma^2}{n}).
+        \Mean{x} \sim \mathcal{N}\left(\mu, \frac{\sigma^2}{n}\right).
     $$
 
     We can also express
@@ -27,10 +27,10 @@ a.  Sum of independent and identically normally distributed random variables is 
 a.  We express the probability
     $${
         & && P\left(\num{-1.96} < \frac{\Mean{x} - \mu}{\frac{\sigma}{\sqrt{n}}} < \num{+1.96}\right) \\
-        &=&& P\left(\num{-1.96}\frac{\sqrt{n}}{\sigma} < \Mean{x} - \mu < \num{+1.96}\frac{\sqrt{n}}{\sigma}\right) \\
-        &=&& P\left(\num{+1.96}\frac{\sqrt{n}}{\sigma} > \mu - \Mean{x} > \num{-1.96}\frac{\sqrt{n}}{\sigma}\right) \\
-        &=&& P\left(\Mean{x} + \num{1.96}\frac{\sqrt{n}}{\sigma} > \mu > \Mean{x} - \num{1.96}\frac{\sqrt{n}}{\sigma}\right) \\
-        &=&& P\left(\Mean{x} - \num{1.96}\frac{\sqrt{n}}{\sigma} < \mu < \Mean{x} + \num{1.96}\frac{\sqrt{n}}{\sigma}\right),
+        &=&& P\left(\num{-1.96}\frac{\sigma}{\sqrt{n}} < \Mean{x} - \mu < \num{+1.96}\frac{\sigma}{\sqrt{n}}\right) \\
+        &=&& P\left(\num{+1.96}\frac{\sigma}{\sqrt{n}} > \mu - \Mean{x} > \num{-1.96}\frac{\sigma}{\sqrt{n}}\right) \\
+        &=&& P\left(\Mean{x} + \num{1.96}\frac{\sigma}{\sqrt{n}} > \mu > \Mean{x} - \num{1.96}\frac{\sigma}{\sqrt{n}}\right) \\
+        &=&& P\left(\Mean{x} - \num{1.96}\frac{\sigma}{\sqrt{n}} < \mu < \Mean{x} + \num{1.96}\frac{\sigma}{\sqrt{n}}\right),
     }$$
     so the confidence interval is
     $$

@@ -1,11 +1,13 @@
 a.
     We know that
     $$
-        \Expected{X} = \frac{1}{\sqrt{2 \pi} \sigma}
-            \Int[0][\infty]{\frac{\cancel{x}}{\cancel{x}} e^{-\frac{\left(\ln x - \mu\right)^2}{2 \sigma^2}}}{x}.
+        \Expected{X} =
+        \Int[\Real]{x f(x)}{x} =
+        \frac{1}{\sqrt{2 \pi} \sigma}
+            \Int[0][\infty]{\cancel{x} \frac{1}{\cancel{x}} e^{-\frac{\left(\ln x - \mu\right)^2}{2 \sigma^2}}}{x}.
     $$
 
-    Now substitute
+    Now substitute^[Note the change of bounds of integration.]
     $$
         z \coloneqq \frac{\ln x - \mu}{\sigma} \Iff x = e^{\mu + \sigma z} \Implies \diff x = e^{\mu + \sigma z} \sigma \diff z.
     $$

@@ -14,14 +14,14 @@ a.  With the mass of the Earth it is tricky, but we are able to get a very good 
     like planets and are certainly not good at all with huge numbers.
     Therefore we will use a logarithmic scale.
     The correct figure does not come to mind readily, but we can be pretty sure that the Earth
-    is much heavier than all the humans combined ($\SI{e11}{\kilo\gram}$), and much lighter than the entire Universe
-    ($\SI{e53}{\kilo\gram}$).
+    is much heavier than all the humans combined ($\SI{e11}{\kilo\gram}$),
+    and much lighter than the entire Universe ($\SI{e53}{\kilo\gram}$).
 
     However we are able to obtain a much better estimate using what we most likely
     already know from high school or even from everyday experience.
 
     Surely many of you have memorized that the Earth's radius is approximately
-    $R_\Earth \approx \SI{6371}{\kilo\metre}$^[Give or take a few kilometres,
+    $R_\Earth \approx \SI{6371}{\kilo\metre}$.^[Give or take a few kilometres,
     depending on whether we consider the polar, equatorial or mean radius.]
     You might not be sure if it is a kilometre more or less now,
     but most likely you already have a very "sharp" prior in your mind.
@@ -44,7 +44,7 @@ a.  With the mass of the Earth it is tricky, but we are able to get a very good 
 
     The mass of the Earth is then given as
     $$
-        M_\Earth = \frac{4}{3}\pi R_\Earth^3,
+        M_\Earth = \frac{4}{3}\pi R_\Earth^3 \Mean{\rho},
     $$
     and a quick calculation shows that this is close to
     $$

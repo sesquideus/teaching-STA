@@ -6,7 +6,7 @@ on the interval $\IntervalCC{1}{2}$ and zero elsewhere.
 
 a.  Determine for which value of $c$ the corresponding cumulative distribution
     function $F(x)$ is correctly normalised.
-a.  ~calculate the probability
+a.  Calculate the probability
     $$
         P(X \leq \num{1.5}).
     $$
