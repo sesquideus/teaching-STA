@@ -9,7 +9,7 @@ a.
 
     Now substitute^[Note the change of bounds of integration.]
     $$
-        z \coloneqq \frac{\ln x - \mu}{\sigma} \Iff x = e^{\mu + \sigma z} \Implies \diff x = e^{\mu + \sigma z} \sigma \diff z.
+        z \coloneqq \frac{\ln x - \mu}{\sigma} \Iff x = e^{\mu + \sigma z} \Implies \Diff{x} = e^{\mu + \sigma z} \sigma \Diff{z}.
     $$
     so that
     $$
@@ -37,3 +37,5 @@ a.  These are more sensitive to _dissolution_ because of both
 
     - **internal processes**, such as stellar evolution and mass segregation,
     - and **external processes**, such as tidal interactions with the galaxy.
+
+    ![Log-normal distribution](lognormal.gp){height=60mm}

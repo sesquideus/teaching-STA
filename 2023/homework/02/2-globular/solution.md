@@ -1,4 +1,4 @@
-a.  Sum of independent and identically normally distributed random variables is again a normally distributed.
+a.  Sum of independent and identically normally distributed random variables is again normally distributed.
     If we have $X_i \sim \mathcal{N}(\mu, \sigma^2)$, then
     $${
         \Expected{\Mean{X}} &=& \frac{1}{n} \Sum[i = 1][n]{\Expected{X_i}} &=& \frac{n}{n} \mu &=&& \mu, \\
