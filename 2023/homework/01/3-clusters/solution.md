@@ -38,4 +38,4 @@ a.  These are more sensitive to _dissolution_ because of both
     - **internal processes**, such as stellar evolution and mass segregation,
     - and **external processes**, such as tidal interactions with the galaxy.
 
-    ![Log-normal distribution](lognormal.gp){height=60mm}
+    ![Log-normal distribution](lognormal.gp){height=80mm}
