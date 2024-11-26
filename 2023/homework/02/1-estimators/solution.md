@@ -35,6 +35,7 @@ a.  We see that
         \frac{\Var{\hat{\sigma}_{\mathrm{MLE}}^2}}{\left(\frac{n}{n - 1}\right)^2\Var{\hat{\sigma}_{\mathrm{MLE}}^2}} =
         \left(\frac{n - 1}{n}\right)^2.
     $$
+
 a.  We express
     $${
         \Var{\hat{\sigma}_{\mathrm{MLE}}^2} &=& \left(\frac{\sigma^2}{n}\right)^2 \Var{\chi^2_{n - 1}}
@@ -55,13 +56,14 @@ a.  We express
         \frac{2 n^2}{\left[2 \left(n - 1\right) + 1\right]\left(n - 1\right)} =
         \frac{2 n^2}{\left(2n - 1\right)\left(n - 1\right)}.
     $$ {#eq:staw021:ratio}
+
 a.  We find which estimator has a larger error from [@eq:staw021:ratio],
     $$
         \frac{2 n^2}{\left(2n - 1\right)\left(n - 1\right)} =
         \frac{2 n^2}{2 n^2 - 3 n + 1} > 1.
     $$
 
-    The important thing that the problem wants us to note is that sometimes there might be a tradeof
+    The important thing that the problem wants us to note is that sometimes there might be a tradeoff
     between estimator MSE and bias. If we want a smaller mean square error,
     $\hat{\sigma}_{\mathrm{MLE}}^2$ is the preferred estimator, but if for any reason we want to
     avoid bias, then $S^2$ is a better choice.
