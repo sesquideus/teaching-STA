@@ -24,6 +24,7 @@ a.  Sum of independent and identically normally distributed random variables is 
     $$
 
     So $Z \sim \mathcal{N}(0, 1)$.
+
 a.  We express the probability
     $${
         & && P\left(\num{-1.96} < \frac{\Mean{x} - \mu}{\frac{\sigma}{\sqrt{n}}} < \num{+1.96}\right) \\
@@ -36,6 +37,7 @@ a.  We express the probability
     $$
         \IntervalOO{\Mean{x} - \num{1.96}\frac{\sigma}{\sqrt{n}}}{\Mean{x} + \num{1.96}\frac{\sigma}{\sqrt{n}}}.
     $$
+
 a.  We just substitute $\Mean{x} = \num{-7.1}$, $\sigma = \num{1.2}$ and $n = 148$ and obtain
     $$
         \IntervalOO{\num{-7.1} - \num{1.96}\frac{\num{1.2}}{148}}{\num{-7.1} + \num{1.96}\frac{\num{1.2}}{148}} \approx

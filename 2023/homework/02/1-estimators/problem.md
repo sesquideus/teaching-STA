@@ -4,7 +4,7 @@ estimator (MLE) and sample variance, respectively given by
 $$
     \hat{\sigma}_{\mathrm{MLE}}^2 = \frac{1}{n} \Sum[i = 1][n]{\left(X_i - \Mean{X}\right)^2}
     \QQText{and}
-    S^2 = \frac{1}{n - 1} \Sum[i = 1][n]{\left(X_i - \Mean{X}\right)^2}
+    S^2 = \frac{1}{n - 1} \Sum[i = 1][n]{\left(X_i - \Mean{X}\right)^2}.
 $$
 
 Both estimators follow a scaled chi-squared distribution,
@@ -20,6 +20,6 @@ a.  Given $\Var{\chi^2_{n - 1}} = 2\left(n - 1\right)$, derive the ratio of
     **mean squared error** (MSE) as
     $$
         \frac{\mathrm{MSE}(S^2)}{\mathrm{MSE(\hat{\sigma}_{\mathrm{MLE}}^2)}} =
-        \frac{2n^2}{\left(2n - 1\right)\left(n - 1\right)}
+        \frac{2n^2}{\left(2n - 1\right)\left(n - 1\right)}.
     $$
 a.  Which of the two estimators for $\sigma^2$ is preferred? Explain your choice.
