@@ -1,4 +1,12 @@
-a.  The likelihood
+a.  The likelihood of the distribution is
+    $$
+        \Distribution{P}{\text{data}}{\rho} = \Binomial{10}{4} \rho^4 \left(1 - \rho\right)^6
+    $$
+    and the prior is
+    $$
+        p(\rho) = 1,
+    $$
+    both for $0 \leq \rho \leq 1$.
 
     Now from Bayes' law we know that
     $$
@@ -14,7 +22,7 @@ a.  The likelihood
         \Int[0][1]{\rho^4 \left(1 - \rho\right)^6}{\rho} =
         K B\underbrace{\left[4 + 1, 6 + 1\right]}_{n = 4,\ m - n = 6}
         \Iff
-        K = \frac{1}{B\left[5, 7\right]} = 2310.
+        K = \frac{1}{B\left[5, 7\right]} = 2310
     $$
     and thus
     $$
@@ -25,16 +33,16 @@ a.  The likelihood
 
 a.  Now for the updated posterior we get
     $$
-        \Distribution{P}{\rho}{\text{data}} =
-        \tilde{K} \rho^5 \left(1 - \rho\right)^6 \text{ for } 0 \leq \rho \leq 1
+        \Distribution{p}{\rho}{\text{data}} =
+        \widetilde{K} \rho^5 \left(1 - \rho\right)^6 \text{ for } 0 \leq \rho \leq 1
     $$
-    for some updated normalisation constant $\tilde{K}$.
+    for some updated normalisation constant $\widetilde{K}$.
     Again, we can express
     $$
         1 = \Int[0][1]{\rho^5 \left(1 - \rho\right)^6}{\rho} =
-        \tilde{K} B\underbrace{\left[5 + 1, 6 + 1\right]}_{n = 5,\ m - n = 6}
+        \widetilde{K} B\underbrace{\left[5 + 1, 6 + 1\right]}_{n = 5,\ m - n = 6}
         \Iff
-        \tilde{K} = \frac{1}{B\left[6, 7\right]} = 5544.
+        \widetilde{K} = \frac{1}{B\left[6, 7\right]} = 5544
     $$
     and therefore
     $$
@@ -46,9 +54,9 @@ a.  Now for the updated posterior we get
     ![The updated probability distribution](posterior.gp){height=60mm}
 
 a.  Finally we find the maximum by differentiating with respect to $\rho$
-    (multiplied by $\tilde{K}$ as a suitable constant):
+    (multiplied by $\widetilde{K}$ as a suitable constant):
     $$
-        \tilde{K} \Derivative{\Distribution{P}{\rho}{\text{data}}}{\rho} =
+        \widetilde{K} \Derivative{\Distribution{p}{\rho}{\text{data}}}{\rho} =
         5 \rho^4 \left(1 - \rho\right)^6 - 6\rho^5 \left(1 - \rho\right)^5 =
         \rho^4 \left(1 - \rho\right)^5 \left[5\left(1 - \rho\right) - 6\rho\right] \MustEqual 0
         \Iff
