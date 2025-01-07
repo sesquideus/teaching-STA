@@ -51,7 +51,7 @@ a.  Now for the updated posterior we get
         5544 \cdot \rho^5 \left(1 - \rho\right)^6.
     $$
 
-    ![The updated probability distribution](posterior.gp){height=60mm}
+    ![The updated probability distribution](posterior.gp){height=80mm}
 
 a.  Finally we find the maximum by differentiating with respect to $\rho$
     (multiplied by $\widetilde{K}$ as a suitable constant):
