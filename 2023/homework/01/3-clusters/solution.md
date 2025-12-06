@@ -38,4 +38,5 @@ a.  These are more sensitive to _dissolution_ because of both
     - **internal processes**, such as stellar evolution and mass segregation,
     - and **external processes**, such as tidal interactions with the galaxy.
 
-    ![Log-normal distribution](lognormal.gp){height=80mm}
+    ![Log-normal distribution $\Distribution{\mathcal{L}}[x]{\mu = 0, \sigma = 1}$
+    and its mean value $e^{\frac{1}{2}} \doteq (§ (exp(1/2))|nf3 §)$](lognormal.gp){height=80mm}

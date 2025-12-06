@@ -8,7 +8,7 @@ a.  Determine for which value of $c$ the corresponding cumulative distribution
     function $F(x)$ is correctly normalised.
 a.  Calculate the probability
     $$
-        P(X \leq \num{1.5}).
+        P(X \geq \num{1.5}).
     $$
 a.  Infer the so-called first and third quartile values of $x$, for which respectively
     $$
