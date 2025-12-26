@@ -40,7 +40,11 @@ a.  We express the probability
 
 a.  We just substitute $\Mean{x} = \num{-7.1}$, $\sigma = \num{1.2}$ and $n = 148$ and obtain
     $$
-        \IntervalOO{\num{-7.1} - \num{1.96}\frac{\num{1.2}}{148}}{\num{-7.1} + \num{1.96}\frac{\num{1.2}}{148}} \approx
+        \IntervalOO{
+            \num{-7.1} - \num{1.96}\frac{\num{1.2}}{\sqrt{148}}
+        }{
+            \num{-7.1} + \num{1.96}\frac{\num{1.2}}{\sqrt{148}}
+        } \approx
         \IntervalOO{\num{-7.1} - \num{0.1933}}{\num{-7.1} + \num{0.1933}} \doteq
         \IntervalOO{\num{-7.29}}{\num{-6.91}}.
     $$

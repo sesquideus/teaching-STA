@@ -42,7 +42,7 @@ a.  Now for the updated posterior we get
         1 = \Int[0][1]{\rho^5 \left(1 - \rho\right)^6}{\rho} =
         \widetilde{K} B\underbrace{\left[5 + 1, 6 + 1\right]}_{n = 5,\ m - n = 6}
         \Iff
-        \widetilde{K} = \frac{1}{B\left[6, 7\right]} = 5544
+        \widetilde{K} = \frac{1}{B\left[6, 7\right]} = (§ (1 / beta(6, 7))|f0 §)
     $$
     and therefore
     $$
@@ -74,7 +74,7 @@ a.  Finally we find the maximum by differentiating with respect to $\rho$
         }{
             \frac{5! \cdot 6!}{12!}
         } =
-        \frac{6}{13} \doteq{0.4615}.
+        \frac{6}{13} \doteq (§ (6 / 13)|nf4 §).
     $$
 
     We see that $\rho_{\mathrm{max}} < \ExpectedChevrons{\rho}$,

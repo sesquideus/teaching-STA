@@ -19,7 +19,7 @@ a.  The GRBs are isotropic, so the PDF should be invariant under rotation, i.e.,
         p(\delta) = \Int[0][2 \pi]{p(\delta, \phi)}{\phi} = \frac{1}{2} \cos \delta.
     $$
 
-a.  Since $\mu = \sin\delta$, we note that $\Diff{\mu} = \cos \delta \Diff{\delta}$. So now
+a.  Since $\mu = \sin\delta$, we know that $\Diff{\mu} = \cos \delta \Diff{\delta}$. So now
     $$
         p(\mu) = p(\delta) \Derivative{\delta}{\mu} = \frac{\cos \delta}{2 \cos \delta} = \frac{1}{2}.
     $$
