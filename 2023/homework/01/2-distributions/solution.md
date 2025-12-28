@@ -1,4 +1,8 @@
-a.  $$
+The distribution looks like this:
+![PDF of the function](distrib.pdf){height=50mm}
+
+a.  The PDF is
+    $$
         F(x) =
         \Int[-\infty][\infty]{f(u)}{u} =
         c \Int[1][x]{u^{-2}}{u} =
@@ -29,7 +33,7 @@ a.  We need to find such $x$ that $F(x)$ equals the required value $f$.
         x = \frac{2}{2 - f}.
     $$
     For $f = \num{0.25}$ we get $x_{\num{0.25}} = \frac{8}{7} \doteq (§ (8 / 7)|nf3 §)$ and
-    for $f = \num{0.75}$ this is $x_{\num{0.75}} = \frac{8}{5} = (§ (8 / 5)|nf1 §)$.
+    for $f = \num{0.75}$ this is $x_{\num{0.75}} = \frac{8}{5} \doteq (§ (8 / 5)|nf1 §)$.
 a.  From their respective definitions we get
     $$
         \Expected{x} =

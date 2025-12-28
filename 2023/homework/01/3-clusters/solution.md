@@ -33,10 +33,15 @@ a.
         \Expected{X} = e^{\mu + \frac{1}{2} z^2}.
     $$
 
-a.  These are more sensitive to _dissolution_ because of both
+a.  In clusters, low luminosity is well correlated with low total mass.
+    Clusters are more sensitive to _dissolution_ because of both
 
     - **internal processes**, such as stellar evolution and mass segregation,
-    - and **external processes**, such as tidal interactions with the galaxy.
+    - and **external processes**, such as tidal interactions with the galaxy,
+        where lower gravitational binding energy means much easier dissolution.
 
-    ![Log-normal distribution $\Distribution{\mathcal{L}}[x]{\mu = 0, \sigma = 1}$
-    and its mean value $e^{\frac{1}{2}} \doteq (§ (exp(1/2))|nf3 §)$](lognormal.gp){height=80mm}
+    ![Log-normal distribution $\Distribution{\mathcal{L}}[x]{\mu = 0, \sigma = 1}$,
+    with its mean value $e^{\frac{1}{2}} \doteq (§ (exp(1/2))|nf3 §)$
+    and median $e^0 = 1$. It looks slightly
+    counterintuitive -- the thick tail moves the mean to higher values than could
+    be expected.](lognormal.gp){height=80mm}
