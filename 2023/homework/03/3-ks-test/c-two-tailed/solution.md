@@ -4,7 +4,8 @@ $c = \num{1.36} \sqrt{\frac{m + n}{m n}}$.
 
 To reject $H_0$ (argue that the difference is significant) we would need
 $$
-    D_{m, n} > \num{1.36} \sqrt{\frac{290 + 386}{290 \cdot 386}} \doteq {0.1057}.
+    D_{m, n} > \num{1.36} \sqrt{\frac{290 + 386}{290 \cdot 386}} \doteq
+    (§ (1.36 * sqrt((290 + 386)/(290 * 386)))|nf4 §).
 $$
 
 Since we already know from [-@sec:3-ks-test:a-cdf] that maximal $D_{m, n}$ is less than this value,

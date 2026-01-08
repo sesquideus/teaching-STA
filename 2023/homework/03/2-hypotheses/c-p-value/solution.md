@@ -1,5 +1,5 @@
 Since $H_a$ is obviously two-sided, we shall use the standard normal distribution
-with $t_0 \equiv \frac{\Abs{\Mean{x} - \mu_0}}{s / \sqrt{n}}$.
+with $t_0 \equiv \dfrac{\Abs{\Mean{x} - \mu_0}}{s / \sqrt{n}}$.
 
 The $p$-value is then
 $$

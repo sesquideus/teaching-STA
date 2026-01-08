@@ -1,6 +1,6 @@
 We are trying to find _excess_ flux density, so we are only testing is the flux density sample `G`
 is larger than sample `R`. This implies a one-sided test.
-Since both $m = 290 \ll 30$ and $n = 386 \ll 30$ the samples pass the rule of thumb and
+Since both $m = 290 \gg 30$ and $n = 386 \gg 30$ the samples pass the rule of thumb and
 we can happily use the large sample approximation.
 
 From Lecture 3, slide 35 we see that for a one-sided KS test with a large sample we need to express
