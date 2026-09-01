@@ -60,7 +60,7 @@ a.  Finally we find the maximum by differentiating with respect to $\rho$
         5 \rho^4 \left(1 - \rho\right)^6 - 6\rho^5 \left(1 - \rho\right)^5 =
         \rho^4 \left(1 - \rho\right)^5 \left[5\left(1 - \rho\right) - 6\rho\right] \MustEqual 0
         \Iff
-        \rho_{\mathrm{max}} = \frac{5}{11} \doteq \num{0.4545}.
+        \rho_{\text{max}} = \frac{5}{11} \doteq \num{0.4545}.
     $$
 
     The average value is
@@ -77,5 +77,5 @@ a.  Finally we find the maximum by differentiating with respect to $\rho$
         \frac{6}{13} \doteq (§ (6 / 13)|nf4 §).
     $$
 
-    We see that $\rho_{\mathrm{max}} < \ExpectedChevrons{\rho}$,
+    We see that $\rho_{\text{max}} < \ExpectedChevrons{\rho}$,
     and the distribution is slightly _skewed_ to higher $\rho$.

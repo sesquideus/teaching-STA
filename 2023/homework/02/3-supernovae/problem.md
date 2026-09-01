@@ -16,7 +16,7 @@ a.  Reviewing the situation at the end of the twentieth century, we take the res
         \Distribution{P}{\rho}{\left\{n = 1, m = 1\right\}} = \frac{\rho^5 \left(1 - \rho\right)^6}{B\left[6, 7\right]}.
     $$
 
-a.  Derive at what value $\rho_{\mathrm{max}}$ the latter posterior function peaks,
+a.  Derive at what value $\rho_{\text{max}}$ the latter posterior function peaks,
     and compute the mean $\ExpectedChevrons{\rho}$ over the range $\IntervalCC{0}{1}$.
     Why do these two values differ?
 
