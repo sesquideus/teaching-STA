@@ -16,6 +16,6 @@ a.  Infer the so-called first and third quartile values of $x$, for which respec
     $$
 a.  Using the definition of expectation of $g(x)$,
     $$
-        \Expected{g(x)} = \Int[-\infty][\infty]{g(x)f(x)}{x}
+        \ExpectedE{g(x)} = \Int[-\infty][\infty]{g(x)f(x)}{x}
     $$
     derive the mean and variance of $X$.
