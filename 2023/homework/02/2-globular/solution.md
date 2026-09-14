@@ -1,9 +1,11 @@
 a.  Sum of independent and identically normally distributed random variables is again normally distributed.
     If we have $X_i \sim \mathcal{N}(\mu, \sigma^2)$, then
-    $${
-        \Expected{\Mean{X}} &=& \frac{1}{n} \Sum[i = 1][n]{\Expected{X_i}} &=& \frac{n}{n} \mu &=&& \mu, \\
-        \Var{\Mean{X}} &=& \frac{1}{n^2} \Sum[i = 1][n]{\Var{X_i}} &=& \frac{n \sigma^2}{n^2} &=&& \frac{\sigma^2}{n}, \\
-    }$$
+    $$
+        \begin{array}{RCLCLCL}
+            \Expected{\Mean{X}} &=& \frac{1}{n} \Sum[i = 1][n]{\Expected{X_i}} &=& \frac{n}{n} \mu &=& \mu, \\[\jot]
+            \Var{\Mean{X}} &=& \frac{1}{n^2} \Sum[i = 1][n]{\Var{X_i}} &=& \frac{n \sigma^2}{n^2} &=& \frac{\sigma^2}{n}
+        \end{array}
+    $$
     and thus
     $$
         \Mean{x} \sim \mathcal{N}\left(\mu, \frac{\sigma^2}{n}\right).
@@ -26,13 +28,15 @@ a.  Sum of independent and identically normally distributed random variables is 
     So $Z \sim \mathcal{N}(0, 1)$.
 
 a.  We express the probability
-    $${
-        & && P\left(\num{-1.96} < \frac{\Mean{x} - \mu}{\frac{\sigma}{\sqrt{n}}} < \num{+1.96}\right) \\
-        &=&& P\left(\num{-1.96}\frac{\sigma}{\sqrt{n}} < \Mean{x} - \mu < \num{+1.96}\frac{\sigma}{\sqrt{n}}\right) \\
-        &=&& P\left(\num{+1.96}\frac{\sigma}{\sqrt{n}} > \mu - \Mean{x} > \num{-1.96}\frac{\sigma}{\sqrt{n}}\right) \\
-        &=&& P\left(\Mean{x} + \num{1.96}\frac{\sigma}{\sqrt{n}} > \mu > \Mean{x} - \num{1.96}\frac{\sigma}{\sqrt{n}}\right) \\
-        &=&& P\left(\Mean{x} - \num{1.96}\frac{\sigma}{\sqrt{n}} < \mu < \Mean{x} + \num{1.96}\frac{\sigma}{\sqrt{n}}\right),
-    }$$
+    $$
+        \begin{array}{CL}
+            & P\left(\num{-1.96} < \frac{\Mean{x} - \mu}{\frac{\sigma}{\sqrt{n}}} < \num{+1.96}\right) \\[\jot]
+            =& P\left(\num{-1.96}\frac{\sigma}{\sqrt{n}} < \Mean{x} - \mu < \num{+1.96}\frac{\sigma}{\sqrt{n}}\right) \\[\jot]
+            =& P\left(\num{+1.96}\frac{\sigma}{\sqrt{n}} > \mu - \Mean{x} > \num{-1.96}\frac{\sigma}{\sqrt{n}}\right) \\[\jot]
+            =& P\left(\Mean{x} + \num{1.96}\frac{\sigma}{\sqrt{n}} > \mu > \Mean{x} - \num{1.96}\frac{\sigma}{\sqrt{n}}\right) \\[\jot]
+            =& P\left(\Mean{x} - \num{1.96}\frac{\sigma}{\sqrt{n}} < \mu < \Mean{x} + \num{1.96}\frac{\sigma}{\sqrt{n}}\right),
+        \end{array}
+    $$
     so the confidence interval is
     $$
         \IntervalOO{\Mean{x} - \num{1.96}\frac{\sigma}{\sqrt{n}}}{\Mean{x} + \num{1.96}\frac{\sigma}{\sqrt{n}}}.

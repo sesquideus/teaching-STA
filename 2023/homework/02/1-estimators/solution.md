@@ -37,13 +37,15 @@ a.  We see that
     $$
 
 a.  We express
-    $${
-        \Var{\hat{\sigma}_{\mathrm{MLE}}^2} &=& \left(\frac{\sigma^2}{n}\right)^2 \Var{\chi^2_{n - 1}}
-            &= 2 \sigma^4 \frac{n - 1}{n^2} & \\
-        \Var{S^2} &=& \left(\frac{n}{n - 1}\right)^2 \Var{\hat{\sigma}_{\mathrm{MLE}}^2}
-            &= 2 \sigma^4 \frac{n - 1}{n^2} \frac{n^2}{\left(n - 1\right)^2}
-            &= 2 \sigma^4 \frac{1}{n - 1}. \\
-    }$$
+    $$
+        \begin{array}{RCLCLCL}
+            \Var{\hat{\sigma}_{\mathrm{MLE}}^2} &=& \left(\frac{\sigma^2}{n}\right)^2 \Var{\chi^2_{n - 1}}
+                &=& 2 \sigma^4 \frac{n - 1}{n^2} \\[\jot]
+            \Var{S^2} &=& \left(\frac{n}{n - 1}\right)^2 \Var{\hat{\sigma}_{\mathrm{MLE}}^2}
+                &=& 2 \sigma^4 \frac{n - 1}{n^2} \frac{n^2}{\left(n - 1\right)^2}
+                &=& 2 \sigma^4 \frac{1}{n - 1}.
+        \end{array}
+    $$
 
     We know that
     $$
