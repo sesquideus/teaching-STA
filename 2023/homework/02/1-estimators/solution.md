@@ -1,16 +1,16 @@
 a.  We know that
     $$
-        \hat{\sigma}_{\mathrm{MLE}}^2 \propto \frac{\sigma^2}{n} \chi^2_{n - 1}.
+        \hat{\sigma}_{\text{MLE}}^2 \propto \frac{\sigma^2}{n} \chi^2_{n - 1}.
     $$
     The expected value is
     $$
-        \Expected{\hat{\sigma}_{\mathrm{MLE}}^2} = \frac{\sigma^2}{n} \Expected{\chi^2_{n - 1}}
+        \Expected{\hat{\sigma}_{\text{MLE}}^2} = \frac{\sigma^2}{n} \Expected{\chi^2_{n - 1}}
             = \frac{\sigma^2}{n} \left(n - 1\right)
             = \frac{n - 1}{n} \sigma^2,
     $$
     and therefore bias is
     $$
-        \Expected{\hat{\sigma}_{\mathrm{MLE}}^2} - \sigma^2 = \left(\frac{n - 1}{n} - 1\right) \sigma^2
+        \Expected{\hat{\sigma}_{\text{MLE}}^2} - \sigma^2 = \left(\frac{n - 1}{n} - 1\right) \sigma^2
             = -\frac{\sigma^2 }{n}.
     $$
 
@@ -27,21 +27,21 @@ a.  We know that
 
 a.  We see that
     $$
-        S^2 = \frac{n}{n - 1} \hat{\sigma}_{\mathrm{MLE}}^2,
+        S^2 = \frac{n}{n - 1} \hat{\sigma}_{\text{MLE}}^2,
     $$
     so we just express directly
     $$
-        \frac{\Var{\hat{\sigma}_{\mathrm{MLE}}^2}}{\Var{S^2}} =
-        \frac{\Var{\hat{\sigma}_{\mathrm{MLE}}^2}}{\left(\frac{n}{n - 1}\right)^2\Var{\hat{\sigma}_{\mathrm{MLE}}^2}} =
+        \frac{\Var{\hat{\sigma}_{\text{MLE}}^2}}{\Var{S^2}} =
+        \frac{\Var{\hat{\sigma}_{\text{MLE}}^2}}{\left(\frac{n}{n - 1}\right)^2\Var{\hat{\sigma}_{\text{MLE}}^2}} =
         \left(\frac{n - 1}{n}\right)^2.
     $$
 
 a.  We express
     $$
         \begin{array}{RCLCLCL}
-            \Var{\hat{\sigma}_{\mathrm{MLE}}^2} &=& \left(\frac{\sigma^2}{n}\right)^2 \Var{\chi^2_{n - 1}}
+            \Var{\hat{\sigma}_{\text{MLE}}^2} &=& \left(\frac{\sigma^2}{n}\right)^2 \Var{\chi^2_{n - 1}}
                 &=& 2 \sigma^4 \frac{n - 1}{n^2} \\[\jot]
-            \Var{S^2} &=& \left(\frac{n}{n - 1}\right)^2 \Var{\hat{\sigma}_{\mathrm{MLE}}^2}
+            \Var{S^2} &=& \left(\frac{n}{n - 1}\right)^2 \Var{\hat{\sigma}_{\text{MLE}}^2}
                 &=& 2 \sigma^4 \frac{n - 1}{n^2} \frac{n^2}{\left(n - 1\right)^2}
                 &=& 2 \sigma^4 \frac{1}{n - 1}.
         \end{array}
@@ -53,7 +53,7 @@ a.  We express
     $$
     and thus
     $$
-        \frac{\MSE{S^2}}{\MSE{\hat{\sigma}_{\mathrm{MLE}}^2}} =
+        \frac{\MSE{S^2}}{\MSE{\hat{\sigma}_{\text{MLE}}^2}} =
         \frac{2 \sigma^4 \frac{1}{n - 1} + 0^2}{2 \sigma^4 \frac{n - 1}{n^2} + \sigma^4 \frac{1}{n^2}} =
         \frac{2 n^2}{\left[2 \left(n - 1\right) + 1\right]\left(n - 1\right)} =
         \frac{2 n^2}{\left(2n - 1\right)\left(n - 1\right)}.
@@ -67,7 +67,7 @@ a.  We find which estimator has a larger error from [@eq:staw021:ratio],
 
     The important thing that the problem wants us to note is that sometimes there might be a tradeoff
     between estimator MSE and bias. If we want a smaller mean square error,
-    $\hat{\sigma}_{\mathrm{MLE}}^2$ is the preferred estimator, but if for any reason we want to
+    $\hat{\sigma}_{\text{MLE}}^2$ is the preferred estimator, but if for any reason we want to
     avoid bias, then $S^2$ is a better choice.
     The use of $n - 1$ in the formula is called _Bessel's correction_.
 
